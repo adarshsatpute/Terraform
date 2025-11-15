@@ -9,8 +9,8 @@
 .terraform.lock.hcl
 
 # Local variable files (sensitive)
-*.tfvars
-*.tfvars.json
+#*.tfvars
+#*.tfvars.json
 
 # VS Code workspace settings
 .vscode/
