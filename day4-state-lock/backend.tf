@@ -3,5 +3,6 @@ terraform {
     bucket = "state-lock-file-store"
     key    = "day4-statefile/terraform.tfstate"
     region = "us-east-1"
+    use_lockfile = true
   }
 }
